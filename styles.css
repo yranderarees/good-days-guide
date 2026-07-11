@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  background: #F7F3EA;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #25332d;
+}
+
+.wrap {
+  max-width: 720px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero {
+  background: white;
+  border-radius: 28px;
+  padding: 28px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+
+.small {
+  color: #5f6d67;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+h1 {
+  margin: .3em 0;
+  font-size: 2.3rem;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 22px 0;
+}
+
+.card {
+  border: none;
+  border-radius: 22px;
+  padding: 20px;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 700;
+  min-height: 140px;
+  cursor: pointer;
+  transition: transform .15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card span {
+  display: block;
+  margin-top: 8px;
+  font-size: .9rem;
+  font-weight: 500;
+  color: #55635d;
+}
+
+.sleep {
+  background: #E8EAF8;
+}
+
+.food {
+  background: #F4E8D1;
+}
+
+.body {
+  background: #DDEDDC;
+}
+
+.connect {
+  background: #F4DDE2;
+}
+
+.panel {
+  display: none;
+  background: white;
+  border-radius: 24px;
+  padding: 22px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+
+.item {
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 16px;
+  border: 1px solid #e7e3dc;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+
+.item:hover {
+  background: #f7f7f7;
+}
+
+.item.done {
+  background: #e6f1ea;
+}
+
+#affirm {
+  display: none;
+  margin-top: 24px;
+  text-align: center;
+  color: #2f6a4f;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#affirm small {
+  display: block;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer {
+  margin: 28px 0;
+  text-align: center;
+  color: #7a817d;
+  font-style: italic;
+}
